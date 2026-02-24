@@ -23,4 +23,6 @@ function M.setup()
   vim.api.nvim_create_user_command("Tasky", M.tasky, { nargs = "*" })
 end
 
+M.setup()
+
 return M

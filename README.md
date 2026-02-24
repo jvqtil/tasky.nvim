@@ -11,10 +11,7 @@ Plug 'jvqtil/tasky.nvim'
 ### [lazy.nvim](https://github.com/folke/lazy.nvim)
 ```lua
 {
-    "jvqtil/tasky.nvim",
-    config = function()
-        require("tasky").setup()
-    end,
+    "jvqtil/tasky.nvim"
 },
 ```
 
